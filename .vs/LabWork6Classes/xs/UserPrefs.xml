@@ -1,0 +1,28 @@
+﻿<Properties StartupConfiguration="{EF566D80-21AE-4AFC-B586-FE8809AE4EFB}|Default">
+  <MonoDevelop.Ide.ItemProperties.LabWork6Classes PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="LabWork6Classes/MainClass.cs">
+    <Files>
+      <File FileName="LabWork6Classes/Program.cs" Line="38" Column="86" />
+      <File FileName="LabWork6Classes/EmptyClass.cs" Line="28" Column="2" />
+      <File FileName="LabWork6Classes/EmptyInterface.cs" Line="15" Column="1" />
+      <File FileName="LabWork6Classes/MainClass.cs" Line="40" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="LabWork6Classes" expanded="True">
+            <Node name="LabWork6Classes" expanded="True">
+              <Node name="MainClass.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|anycpu" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

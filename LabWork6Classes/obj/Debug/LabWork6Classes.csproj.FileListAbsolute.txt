@@ -1,0 +1,6 @@
+/Users/nevernimdpieceofshit/Projects/LabWork6Classes/LabWork6Classes/bin/Debug/LabWork6Classes.exe
+/Users/nevernimdpieceofshit/Projects/LabWork6Classes/LabWork6Classes/bin/Debug/LabWork6Classes.pdb
+/Users/nevernimdpieceofshit/Projects/LabWork6Classes/LabWork6Classes/obj/Debug/LabWork6Classes.csprojAssemblyReference.cache
+/Users/nevernimdpieceofshit/Projects/LabWork6Classes/LabWork6Classes/obj/Debug/LabWork6Classes.csproj.CoreCompileInputs.cache
+/Users/nevernimdpieceofshit/Projects/LabWork6Classes/LabWork6Classes/obj/Debug/LabWork6Classes.exe
+/Users/nevernimdpieceofshit/Projects/LabWork6Classes/LabWork6Classes/obj/Debug/LabWork6Classes.pdb
