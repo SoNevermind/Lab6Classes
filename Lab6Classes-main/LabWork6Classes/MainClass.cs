@@ -7,6 +7,36 @@ namespace LabWork6Classes
         public void Add(T input) { }
     }
 
+    public class NewGen : IEquatable<NewGen>
+    {
+        public string GenName { get; set; }
+        public string GenId { get; set; }
+
+        public override string ToString()
+        {
+            return "Name - " + GenName + "  Id - " + GenId;
+        }
+
+        public override bool Equals(object obj)
+        {
+            if (obj == null) return false;
+            NewGen newGen = obj as NewGen;
+            if (newGen == null) return false;
+            else return Equals(newGen);
+        }
+
+        public override int GetHashCode()
+        {
+            return GenId;
+        }
+
+        public bool Equals(NewGen gen)
+        {
+            if (gen == null) return false;
+            return (this.GenId.Equals(gen.GenId));
+        }
+    }
+
     public class MainClass
     {
         static void Main(String[] args)
@@ -42,6 +72,36 @@ namespace LabWork6Classes
 
             DelAdd<string> delAdd = new DelAdd<string>();
             Console.WriteLine(delAdd.Add("New string from new generic class"));
+
+            List<NewGen> list = new List<NewGen>();
+
+            list.Add(new NewGen() { GenName = "Some name first", GenId = 12463 });
+            list.Add(new NewGen() { GenName = "Some name second", GenId = 74344 });
+
+            Console.WriteLine();
+            foreach(NewGen gen in list)
+            {
+                Console.WriteLine(list);
+            }
+
+            list.RemoveAt(1);
+
+            Console.WriteLine();
+            foreach (NewGen gen in list)
+            {
+                Console.WriteLine(list);
+            }
+
+            list.RemoveAt(1);
+
+            Console.WriteLine();
+            foreach (NewGen gen in list)
+            {
+                Console.WriteLine(list);
+            }
+
+            Console.WriteLine();
+
 
             Console.ReadLine();
         }
